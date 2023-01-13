@@ -1,11 +1,10 @@
 .recipe-item-container {
-    min-width: 30%;
-    height: 240px;
+    min-width: 40%;
+    height: 150px;
     flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
   
@@ -42,7 +41,8 @@
     }
   
     .recipe-item-info-container {
-      height: 90px;
+      height: 80px;
+      width: 100px;
       padding: 0 25px;
       display: flex;
       flex-direction: column;
@@ -50,14 +50,14 @@
       justify-content: center;
       border: 1px solid black;
       background-color: white;
-      opacity: 0.7;
+      opacity: 0.8;
       position: absolute;
   
       h2 {
         font-weight: bold;
         margin: 0 6px 0;
         font-size: 22px;
-        color: #4a4a4a;
+        color: #2b2a2a;
       }
   
       p {

@@ -12,7 +12,6 @@ const RecipeItem = ({ recipe }) => {
       />
       <div className='recipe-item-info-container'>
         <h2>{title}</h2>
-        <p>Shop Now</p>
       </div>
     </div>
   );
